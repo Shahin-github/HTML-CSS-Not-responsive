@@ -1,0 +1,195 @@
+/* COMMON PART */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: "Merriweather", serif;
+}
+.button {
+  color: white;
+  text-decoration: none;
+  background-image: linear-gradient(90deg, salmon, red);
+  padding: 17px;
+  border-radius: 50px;
+}
+#photo {
+  height: 100%;
+  width: 80%;
+  margin-left: 45px;
+}
+/* ----------------------------------------------------------------------------- */
+/* HEADER PART */
+.diff-color {
+  color: coral;
+}
+.section-one {
+  background-image: url(images/shapes/7.png);
+  overflow: hidden;
+  background-size: cover;
+/*    clear: both;*/
+}
+.content-one {
+  padding: 45px;
+  margin: 120px 55px;
+  height: 500px;
+  width: 35%;
+  float: left;
+}
+.content-one > h1 {
+  font-size: 45px;
+}
+.img-one {
+  padding: 45px;
+  margin: 120px 45px;
+  height: 500px;
+  width: 35%;
+  float: right;
+}
+/* ---------------------------------------------------------------------------*/
+/*SECOND PART */
+
+.section-two {
+  background-image: url(images/shapes/Frame-one.jpg);
+  overflow: hidden;
+  background-size: cover;
+}
+.content-two {
+  padding: 45px;
+  margin: 120px 55px;
+  height: 500px;
+  width: 35%;
+  float: left;
+}
+.content-two > h1 {
+  font-size: 45px;
+  padding: 20px;
+}
+.img-two {
+  padding: 45px;
+  margin: 100px 45px;
+  height: 600px;
+  width: 35%;
+  float: left;
+}
+/* ----------------------------------------------------------------------- */
+/* RECIPE PART  */
+
+.recipes-div-1 {
+  text-align: center;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.recipes-div-1 p {
+  text-align: center;
+}
+.recipes-img {
+  width: 280px;
+  height: auto;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+.recipes-container {
+  display: flex;
+  margin: 5%;
+  padding-bottom: 50px;
+}
+.one-third-width {
+  float: left;
+  margin-left: 80px;
+  margin-right: 5px;
+  box-shadow: 10px 20px 40px gray;
+  border-radius: 10px;
+  padding: 10px;
+}
+.one-third-width p {
+  width: 280px;
+}
+/* ---------------------------------------------------------------------- */
+/* SOCIAL PART */
+.social-container {
+  display: flex;
+  margin: 10%;
+  box-shadow: 10px 20px 40px gray;
+  border-radius: 20px;
+}
+.social-div {
+  float: left;
+  padding: 50px;
+  margin-left: 80px;
+}
+.social h2 {
+  color: black;
+}
+
+.social-img {
+  width: 100px;
+  height: 70px;
+}
+/* ------------------------------------------------------------------------------ */
+/* CUSTOMER PART */
+.customer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(../images/food/back-customers.jpg);
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+}
+.customer h2 {
+  font-size: 40px;
+  text-align: center;
+  padding: 50px;
+  padding-bottom: 0;
+  color: white;
+}
+.customer-review {
+  display: flex;
+  width: 80%;
+  font-style: arial;
+  margin: 5%;
+  margin-left: 150px;
+}
+.customer-review img {
+  height: 65px;
+  border-radius: 30%;
+  margin-right: 10px;
+  vertical-align: middle;
+  border: 0;
+  margin-top: 25px;
+}
+.customer-div {
+  float: left;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+.name {
+  color: aqua;
+}
+/* ------------------------------------------------------------------------ */
+/* FOOTER PART */
+footer {
+  padding-top: 20px;
+  height: 200px;
+  background-color: black;
+  text-align: center;
+  padding-bottom: 50px;
+}
+footer h2 {
+  color: gray;
+}
+footer p {
+  color: white;
+  text-align: center;
+}
+.orange-color {
+  color: orange;
+  padding-right: 10px;
+}
+.copy {
+  color: yellow;
+}
+/* ------------------------------------------------------------------------------- */
+/* ASSIGNMENT COMPLETE. */
